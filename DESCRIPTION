@@ -1,0 +1,33 @@
+Package: EndothelialAtlasDocker
+Title: Containerized analysis of Endothelial Atlas data
+Version: 0.99.1
+Authors@R: 
+    person(given = "Ludwig",
+           family = "Geistlinger",
+           role = c("aut", "cre"),
+           email = "ludwig_geistlinger@hms.harvard.edu")
+Description: Containerized analysis of Endothelial Atlas
+Encoding: UTF-8
+VignetteBuilder: knitr
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: R (>= 4.0.0)
+Imports: 
+    fastqcr,
+    rdrop2,
+    vroom,
+    SingleCellExperiment,
+    SummarizedExperiment,
+    BiocFileCache
+Suggests: 
+    ComplexHeatmap,
+    readr,
+    knitr,
+    rmarkdown,
+    pkgdown,
+    shinyNgsreports,
+    BiocParallel,
+    iSEE
+Remotes:
+    UofABioinformaticsHub/shinyNgsreports
