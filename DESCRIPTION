@@ -22,12 +22,16 @@ Imports:
     BiocFileCache
 Suggests: 
     ComplexHeatmap,
+    fastqcTheoreticalGC,
     readr,
     knitr,
     rmarkdown,
     pkgdown,
     shinyNgsreports,
+    shiny-directory-input,
     BiocParallel,
     iSEE
 Remotes:
+    mikelove/fastqcTheoreticalGC
+    wleepang/shiny-directory-input
     UofABioinformaticsHub/shinyNgsreports
