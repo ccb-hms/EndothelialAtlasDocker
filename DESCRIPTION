@@ -32,6 +32,6 @@ Suggests:
     BiocParallel,
     iSEE
 Remotes:
-    mikelove/fastqcTheoreticalGC
-    wleepang/shiny-directory-input
+    mikelove/fastqcTheoreticalGC,
+    wleepang/shiny-directory-input,
     UofABioinformaticsHub/shinyNgsreports
