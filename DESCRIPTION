@@ -27,8 +27,8 @@ Suggests:
     knitr,
     rmarkdown,
     pkgdown,
+    shinyDirectoryInput,
     shinyNgsreports,
-    shiny-directory-input,
     BiocParallel,
     iSEE
 Remotes:
